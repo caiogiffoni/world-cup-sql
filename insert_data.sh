@@ -1,5 +1,7 @@
 #! /bin/bash
 
+# pg_dump --clean --create --inserts --username=freecodecamp students > students.sql
+
 if [[ $1 == "test" ]]
 then
   PSQL="psql --username=postgres --dbname=worldcuptest -t --no-align -c"
