@@ -1,0 +1,129 @@
+cat name.txt | sed 's/freecodecamp/f233C0d3C@mp/i'
+    2  man greg
+    3  man grep
+    4  grep -n 'meow[a-z]*' kitty_ipsum_1.txt 
+    5  grep -n 'meow[a-z]*' kitty_ipsum_1.txt | sed 's/[0-9]/1/'
+    6  grep -n 'meow[a-z]*' kitty_ipsum_1.txt | sed 's/[0-9]+/1/'
+    7  man sed
+    8  man sed
+    9  grep -n 'meow[a-z]*' kitty_ipsum_1.txt | sed -r 's/[0-9]+/1/'
+   10  grep -n 'meow[a-z]*' kitty_ipsum_1.txt | sed -r 's/([0-9]+)/1/'
+   11  grep -n 'meow[a-z]*' kitty_ipsum_1.txt | sed -r 's/(0-9+)/1/'
+   12  grep -n 'meow[a-z]*' kitty_ipsum_1.txt | sed -r 's/([0-9]+)/\1/'
+   13  grep -n 'meow[a-z]*' kitty_ipsum_1.txt | sed -r 's/([0-9]+).*/\1/'
+   14  grep -n 'meow[a-z]*' kitty_ipsum_1.txt | sed -r 's/([0-9]+).*/\1/' >> kitty_info.txt 
+   15  grep --color 'cat[a-z]*'
+   16  grep --color 'cat[a-z]*' kitty_ipsum_1.txt 
+   17  echo -e "\nNumber of times cat, cats, or carnip appears:" >> kitty_info.txt 
+   18  echo -e "\nNumber of times cat, cats, or catnip appears:" >> kitty_info.txt 
+   19  grep --color 'cat[a-z]*'
+   20  grep --color 'cat[a-z]*' kitty_ipsum_1.txt 
+   21  grep -n 'cat[a-z]*' kitty_ipsum_1.txt 
+   22  grep -o 'cat[a-z]*' kitty_ipsum_1.txt 
+   23  grep -o 'cat[a-z]*' kitty_ipsum_1.txt | wc -l
+   24  grep -o 'cat[a-z]*' kitty_ipsum_1.txt | wc -l >> kitty_info.txt 
+   25  man wc
+   26  echo -e "\nLines that they appear on:" >> kitty_info.txt 
+   27  grep -o 'cat[a-z]*' kitty_ipsum_1.txt | wc -l >> kitty_info.txt 
+   28  grep -n 'cat[a-z]*' kitty_ipsum_1.txt | sed -r 's/([0-9]+).*/\1/' >> kitty_info.txt 
+   29  grep -n 'cat[a-z]*' kitty_ipsum_1.txt | sed -E 's/([0-9]+).*/\1/'
+   30  grep -n 'cat[a-z]*' kitty_ipsum_1.txt | sed -E 's/([0-9]+).*/\1/' >> kitty_info.txt 
+   31  echo -e "\n\n ~~ kitty_ipsum_2.txt info ~~" >> kitty_info.txt 
+   32  echo -e "\n\n~~ kitty_ipsum_2.txt info ~~" >> kitty_info.txt 
+   33  echo -e "\nNumbwe of lines:" >> kitty_info.txt 
+   34  echo -e "\nNumber of lines:" >> kitty_info.txt 
+   35  cat kitty_ipsum_2.txt 
+   36  cat kitty_ipsum_2.txt | wc -l
+   37  cat kitty_ipsum_2.txt | wc -l >> kitty_info.txt 
+   38  echo -e "\nNumber of words:" >> kitty_info.txt 
+   39  cat kitty_ipsum_2.txt | wc 
+   40  man wc
+   41  cat kitty_ipsum_2.txt | wc -w
+   42  cat kitty_ipsum_2.txt | wc -w >> kitty_info.txt 
+   43  wc -w < kitty_ipsum_2.txt 
+   44  wc -w < kitty_ipsum_2.txt >> kitty_info.txt 
+   45  echo -e "\nNumber of characters:" >> kitty_info.txt 
+   46  man wc
+   47  wc -m < kitty_ipsum_2.txt >> kitty_info.txt 
+   48  grep -n 'meow[a-z]*' kitty_ipsum_2.txt 
+   49  grep --color 'meow[a-z]*' kitty_ipsum_2.txt 
+   50  echo -e "\nNumber of times meow or meowzer appears:" >> kitty_info.txt 
+   51  grep --color 'meow[a-z]*' kitty_ipsum_2.txt 
+   52  man grep
+   53  grep -q 'meow[a-z]*' kitty_ipsum_2.txt 
+   54  grep -c 'meow[a-z]*' kitty_ipsum_2.txt 
+   55  grep -c 'meow[a-z]*' kitty_ipsum_2.txt >> kitty_info.txt 
+   56  grep -o 'meow[a-z]*' kitty_ipsum_2.txt >> kitty_info.txt 
+   57  grep -o 'meow[a-z]*' kitty_ipsum_2.txt | wc -l >> kitty_info.txt 
+   58  echo -e "\nLines that they appear oon:" >> kitty_info.txt 
+   59  echo -e "\nLines that they appear on:" >> kitty_info.txt 
+   60  grep --color 'meow[a-z]*' kitty_ipsum_2.txt 
+   61  grep -n 'cat[a-z]*' kitty_ipsum_2.txt | sed -r 's/([0-9]+).*/\1/' >> kitty_info.txt 
+   62  grep -n 'cat[a-z]*' kitty_ipsum_2.txt | sed -r 's/([0-9]+).*/\1/' 
+   63  grep -n 'cat[a-z]*' kitty_ipsum_2.txt 
+   64  grep -n 'cat[a-z]*' kitty_ipsum_2.txt | sed -E 's/([0-9]+).*/\1/' 
+   65  grep -n 'cat[a-z]*' kitty_ipsum_2.txt | sed -E 's/([0-9]+).*/\1/' 
+   66  grep -n 'cat[a-z]*' kitty_ipsum_2.txt | sed -E 's/([0-9]+).*/\1/'  >> kitty_info.txt 
+   67  grep -n 'meow[a-z]*' kitty_ipsum_2.txt | sed -E 's/([0-9]+).*/\1/'  >> kitty_info.txt 
+   68  grep --collor 'cat[a-z]*' kitty_ipsum_2.txt
+   69  grep --color 'cat[a-z]*' kitty_ipsum_2.txt
+   70  echo -e "\nNumber of times cat, cats, or catnip appears" >> kitty_info.txt 
+   71  echo -e "\nNumber of times cat, cats, or catnip appears:" >> kitty_info.txt 
+   72  grep -n 'cat[a-z]*' kitty_ipsum_2.txt
+   73  grep -n 'cat[a-z]*' kitty_ipsum_2.txt
+   74  grep -o 'cat[a-z]*' kitty_ipsum_2.txt
+   75  grep -o 'cat[a-z]*' kitty_ipsum_2.txt | wc
+   76  grep -o 'cat[a-z]*' kitty_ipsum_2.txt | wc -n
+   77  grep -o 'cat[a-z]*' kitty_ipsum_2.txt | wc -l
+   78  grep -o 'cat[a-z]*' kitty_ipsum_2.txt | wc -l >> kitty_info.txt 
+   79  echo -e "\nLines that they appear on:" >> kitty_info.txt 
+   80  grep -o 'cat[a-z]*' kitty_ipsum_2.txt
+   81  grep -n 'cat[a-z]*' kitty_ipsum_2.txt
+   82  grep -n 'cat[a-z]*' kitty_ipsum_2.txt | sed -E 's/([0-9]+).*/\1/' 
+   83  grep -n 'cat[a-z]*' kitty_ipsum_2.txt | sed -E 's/([0-9]+).*/\1/' >> kitty_info.txt 
+   84  touch translate.sh
+   85  chmod +x translate.sh 
+   86  ./translate.sh kitty_ipsum_1.txt 
+   87  ./translate.sh < kitty_ipsum_1.txt 
+   88  cat kitty_ipsum_1.txt | ./translate.sh 
+   89  cat kitty_ipsum_1.txt | ./translate.sh 
+   90  ./translate.sh kitty_ipsum_1.txt 
+   91  ./translate.sh kitty_ipsum_1.txt 
+   92  ./translate.sh kitty_ipsum_1.txt 
+   93  ./translate.sh kitty_ipsum_1.txt | grep --color 'dogchow'
+   94  ./translate.sh kitty_ipsum_1.txt | grep --color 'catnip'
+   95  ./translate.sh kitty_ipsum_1.txt | grep --color 'dog'
+   96  ./translate.sh kitty_ipsum_1.txt | grep --color 'dog[a-z]*'
+   97  ./translate.sh kitty_ipsum_1.txt | grep --color 'cat'
+   98  ./translate.sh kitty_ipsum_1.txt | grep --color 'cat'
+   99  ./translate.sh kitty_ipsum_1.txt | grep --color 'cat[a-z]*'
+  100  ./translate.sh kitty_ipsum_1.txt | grep --color 'woof[a-z]*'
+  101  ./translate.sh kitty_ipsum_1.txt | grep --color 'dog[a-z]*|woof[a-z]*'
+  102  ./translate.sh kitty_ipsum_1.txt | grep -E 'dog[a-z]*|woof[a-z]*'
+  103  ./translate.sh kitty_ipsum_1.txt | grep --color -E 'dog[a-z]*|woof[a-z]*'
+  104  ./translate.sh kitty_ipsum_1.txt | grep --color -E 'dog[a-z]*|woof[a-z]*'
+  105  ./translate.sh kitty_ipsum_1.txt | grep --color -E 'dog[a-z]*|woof[a-z]*'
+  106  ./translate.sh kitty_ipsum_1.txt | grep --color -E 'meow[a-z]*|cat[a-z]*'
+  107  ./translate.sh kitty_ipsum_2.txt | grep --color -E 'meow[a-z]*|cat[a-z]*'
+  108  ./translate.sh kitty_ipsum_1.txt > touch doggy_ipsum_1.txt
+  109  ./translate.sh kitty_ipsum_1.txt > doggy_ipsum_1.txt
+  110  cat doggy_ipsum_1.txt 
+  111  diff doggy_ipsum_1.txt kitty_ipsum_1.txt 
+  112  diff kitty_ipsum_1.txt doggy_ipsum_1.txt 
+  113  man diff
+  114  diff --color kitty_ipsum_1.txt doggy_ipsum_1.txt 
+  115  ./translate.sh kitty_ipsum_2.txt > doggy_ipsum_2.txt
+  116  cat doggy_ipsum_2.txt 
+  117  diff --color kitty_ipsum_2.txt doggy_ipsum_2.txt 
+  118  history
+  119  git init
+  120  git status
+  121  git status
+  122  git add
+  123  git add .
+  124  git re --cached learn-advanced-bash-by-building-a-kitty-ipsum-translator/
+  125  git rm --cached learn-advanced-bash-by-building-a-kitty-ipsum-translator/
+  126  git rm -f --cached learn-advanced-bash-by-building-a-kitty-ipsum-translator/
+  127  git status
+  128  git add .
+  129  history
